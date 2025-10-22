@@ -10,13 +10,15 @@ body {
 }
 
 /*Início Header*/
-
 .nav {
     background-color: #181818;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: end;
+    position: sticky;
+    top: 0;
+    z-index: 9; /*empilhamento vertical*/
 }
 
 .nav-list {
