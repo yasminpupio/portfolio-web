@@ -18,7 +18,8 @@ body {
     justify-content: end;
     position: sticky;
     top: 0;
-    z-index: 9; /*empilhamento vertical*/
+    z-index: 9;
+    /*empilhamento vertical*/
 }
 
 .nav-list {
@@ -65,7 +66,7 @@ body {
     margin-bottom: 35px;
 }
 
-.call-to-action { 
+.call-to-action {
     cursor: pointer;
     background-color: #FFF;
     border: 0;
@@ -84,10 +85,11 @@ body {
     text-decoration: none;
     color: #181818;
 }
+
 /*Fim Main*/
 
 /*Início Sobre*/
-.about { 
+.about {
     background-color: #FFFFFF;
     width: 100%;
     padding-left: 10%;
@@ -105,7 +107,7 @@ body {
     padding-right: 40px;
 }
 
-.about img { 
+.about img {
     max-width: 450px;
 }
 
@@ -113,6 +115,7 @@ body {
     font-size: 32px;
     margin-bottom: 14px;
 }
+
 /*Fim Sobre*/
 
 /*Início Projetos*/
@@ -136,7 +139,7 @@ body {
     font-style: italic;
 }
 
-.project-list { 
+.project-list {
     width: 100%;
     margin-bottom: 8px;
     display: flex;
@@ -152,6 +155,39 @@ body {
     transition: 0.9s;
 }
 
-.projects img:hover { 
+.projects img:hover {
     opacity: 1;
+}
+
+.action {
+    background-color: #181818;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+/*Fim Projetos*/
+
+/*Início Rodapé*/
+footer {
+    width: 100%;
+    background-color: #181818;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer p {
+    margin-left: 12px;
 }
