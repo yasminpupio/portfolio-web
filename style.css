@@ -48,29 +48,63 @@
  }
 
  .main h1 {
-    color: #FFFFFF;
-    font-size: 54px;
+     color: #FFFFFF;
+     font-size: 54px;
  }
 
  .main p {
-    font-size: 24px;
-    font-style: italic;
-    color: #1E56FC;
-    margin-top: 10px;
-    margin-bottom: 35px;
+     font-size: 24px;
+     font-style: italic;
+     color: #1E56FC;
+     margin-top: 10px;
+     margin-bottom: 35px;
  }
 
- .call-to-action { 
-    cursor: pointer;
-    background-color: #FFFFFF;
-    border: 0;
-    padding: 14px;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bold;
+ .call-to-action {
+     cursor: pointer;
+     background-color: #FFFFFF;
+     border: 0;
+     padding: 14px;
+     border-radius: 4px;
+     font-size: 18px;
+     font-weight: bold;
+     transition: 0.9s;
+ }
+
+ .call-to-action:hover {
+     transform: scale(1.1);
  }
 
  .main a {
-    text-decoration: none;
-    color: #181818;
+     text-decoration: none;
+     color: #181818;
+ }
+
+ /* SECTION (ABOUT) */
+ .about {
+     background-color: #FFFFFF;
+     width: 100%;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 80px;
+     padding-bottom: 80px;
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .about div {
+    max-width: 50%;
+    padding-right: 40px;
+ }
+
+ .about img {
+    max-width: 450px;
+    border-radius: 8px;
+ }
+
+ .about div h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
  }
