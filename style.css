@@ -10,6 +10,10 @@
      font-family: 'Roboto', sans-serif;
  }
 
+ html {
+    scroll-behavior: smooth;
+ }
+
  /* NAV */
  .nav {
      background-color: #181818;
